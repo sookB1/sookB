@@ -1,0 +1,5 @@
+cd $(cd $(dirname $0); pwd)
+while(true) do
+screen -S ThesookB -X kill
+screen -S ThesookB ./ThesookB
+done
