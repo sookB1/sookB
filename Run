@@ -59,7 +59,7 @@ export LD_LIBRARY_PATH=/usr/local/lib:/usr/local/lib64
 sudo ldconfig
 sudo apt-get install libcurl4-openssl-dev
 rm -rf tmp
-sudo lua5.3 sookB.lua
+screen sudo lua5.3 sookB.lua
 ;;
 2)
 echo -e "\e[1m\e[32mThe bot is running now : جاري تشغيل البوت الان : \e[0m"
