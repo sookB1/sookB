@@ -1,4 +1,4 @@
 cd $(cd $(dirname $0); pwd)
 while(true) do
-screen sudo lua5.3 sookB.lua
+sudo lua5.3 sookB.lua
 done
